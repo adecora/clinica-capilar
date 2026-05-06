@@ -201,6 +201,25 @@ Las soluciones a los ejercicios: [**sql1.sql**](sql1.sql), [**sql2.sql**](sql2.s
 ![Ejecución de la solución de la parte 2](assets/parte2.gif)
 
 
+## Presentación interactiva
+
+La presentación está desplegada en [GitHub Pages](https://adecora.github.io/clinica-capilar/) para que se pueda visualizar de forma interactiva. Para poder ejecutarla en la web sin necesidad de un servidor externo, se utiliza SQLite como motor de base de datos. El código adaptado para ambas partes en SQLite se encuentra en [sqlite/sqlite1.sql](sqlite/sqlite1.sql) y [sqlite/sqlite2.sql](sqlite/sqlite2.sql).
+
+Para crear las bases de datos en SQLite localmente, es necesario ejecutar los siguientes comandos:
+
+```bash
+$ sqlite3 public/clinica_capilar.db < sqlite/sqlite1.sql
+$ sqlite3 public/empresa.db < sqlite/sqlite2.sql
+```
+
+Para generar y levantar el cuaderno interactivo en local, se deben ejecutar los siguientes comandos:
+
+```bash
+$ marimo export html-wasm presentacion.py -o docs/ --mode edit
+$ python -m http.server --directory docs
+```
+
+
 ---
 [@title]: #
 [Source - https://stackoverflow.com/a/35760941]: #
