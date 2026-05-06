@@ -196,9 +196,9 @@ El ćodigo completo del ejercicio resuelto se encuentra en [**sql2.sql**](sql2.s
 
 Las soluciones a los ejercicios: [**sql1.sql**](sql1.sql), [**sql2.sql**](sql2.sql), están preparadas para que puedan ser ejecutadas como scripts desde la consola de **mysql**.
 
-![Ejecución de la solución de la parte 1](parte1.gif)
+![Ejecución de la solución de la parte 1](assets/parte1.gif)
 
-![Ejecución de la solución de la parte 2](parte2.gif)
+![Ejecución de la solución de la parte 2](assets/parte2.gif)
 
 
 ---

@@ -139,7 +139,7 @@ SELECT 'Datos insertados correctamente' as resultado;
 
 
 -- Querys
-SELECT "3. Obtener los datos de los empleados cuyo cargo sea 'Secretaria' o 'Secretario'." as ejercico;
+SELECT '3. Obtener los datos de los empleados cuyo cargo sea ''Secretaria'' o ''Secretario''.' as ejercico;
 
 SELECT * FROM empleado WHERE cargoE LIKE 'Secretari%';
 
@@ -217,7 +217,7 @@ FROM empleado
 WHERE comisionE > 10000 ORDER BY nDIEmp;
 
 
-SELECT "13. Obtener los datos de los empleados cuyo nombre comience por la letra 'M', cuyo salario sea mayor de 40.000 o reciban comisión, y que trabajen en el departamento 'VENTAS'." as ejercicio;
+SELECT '13. Obtener los datos de los empleados cuyo nombre comience por la letra ''M'', cuyo salario sea mayor de 40.000 o reciban comisión, y que trabajen en el departamento ''VENTAS''.' as ejercicio;
 
 SELECT nomEmp as nombre FROM empleado
 WHERE nomEmp LIKE 'M%'

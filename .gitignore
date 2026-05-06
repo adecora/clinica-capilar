@@ -1,0 +1,13 @@
+# Marimo cache and session files
+__marimo__/cache/
+__marimo__/session/
+
+# Marimo exports (optional - depends on workflow)
+# Uncomment if you don't want to version control exports
+# __marimo__/*.html
+# __marimo__/*.ipynb
+
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+*.pyc
